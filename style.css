@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+
+    padding: 5.3rem 3.7rem 5.4rem;
+
+    color: #A54328;
+
+    font-family: 'Source Serif 4', serif;
+}
+main{
+    width: 31.9rem;
+
+    margin: auto;
+}
+
+img{
+    margin: 4.677rem 0;
+}
+.sobre{
+    margin-bottom: 3.4rem;
+}
+ul{
+    margin-top: 3.614rem;
+}
+span{
+    color: #A54328;
+    font-size: 14.171px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+ul li, ol li{
+    color: #A54328;
+    font-family: 'Source Serif 4', serif;
+    font-size: 1.4171rem;
+    line-height: normal;
+}
+
+button{
+    margin-top: 1.701rem;
+
+    color: #FFF;
+    text-align: center;
+    font-size: 0.992rem;
+    font-weight: 500;
+    line-height: 1.7006rem; 
+    text-transform: capitalize;
+
+    border-radius: 0.5669rem;
+    background: #A54328;
+
+    display: flex;
+    width: 9.424rem;
+    height: 3.1886rem;
+    padding: 1.1337rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7086rem;
+
+    border: none;
+
+}
+
+@media (min-width: 700px){
+
+    main{
+        display: flex;
+        gap:18.9rem;
+
+        width: 114.9rem;
+
+    }
+
+    h2{
+        font-size: 40px;
+    }
+
+    .sobre{
+        width: 43.5rem;
+    }
+    .preparo{  
+    width: 52.5rem;
+    }
+    ul{
+    margin-bottom: 1.5rem;
+    }
+    button{
+        margin-top: 2.4rem;
+
+        cursor: pointer;
+    }
+    ul li, ol li, p,span{
+    font-size: 20px;
+    }
+    img{
+        margin: 6.6rem 0;
+    }
+}
