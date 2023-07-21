@@ -14,9 +14,6 @@ body{
     color: #A54328;
 
     font-family: 'Source Serif 4', serif;
-
-        opacity: 0.6000000238418579;
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 main{
     width: 31.9rem;
